@@ -14,7 +14,7 @@
         android:padding="10dp">
 
         <ImageView
-            android:id="@+id/ivBook"
+            android:id="@+id/ivCover"
             android:layout_width="60dp"
             android:layout_height="80dp"
             android:src="@drawable/buku"
