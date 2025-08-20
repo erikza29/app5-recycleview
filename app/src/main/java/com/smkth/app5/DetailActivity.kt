@@ -31,5 +31,10 @@ class DetailActivity : AppCompatActivity() {
         Glide.with(this)
             .load(cover)
             .into(ivCover)
+
+        val tvKembali: TextView = findViewById(R.id.tvKembali)
+        tvKembali.setOnClickListener {
+            finish()
+        }
     }
 }
