@@ -17,7 +17,6 @@
             android:id="@+id/ivCover"
             android:layout_width="60dp"
             android:layout_height="80dp"
-            android:src="@drawable/buku"
             android:contentDescription="Gambar Buku" />
 
         <LinearLayout
@@ -51,13 +50,13 @@
 
         </LinearLayout>
 
-        <ImageButton
-            android:id="@+id/btnDelete"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:src="@android:drawable/ic_menu_delete"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:contentDescription="Hapus Buku" />
+<!--        <ImageButton-->
+<!--            android:id="@+id/btnDelete"-->
+<!--            android:layout_width="40dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:src="@android:drawable/ic_menu_delete"-->
+<!--            android:background="?attr/selectableItemBackgroundBorderless"-->
+<!--            android:contentDescription="Hapus Buku" />-->
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>
